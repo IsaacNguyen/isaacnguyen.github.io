@@ -1,20 +1,19 @@
 //import { useState } from 'react'
 import './App.css'
 import Taskbar from './Taskbar';
+import Intro from './Intro';
 
 function App() {
 
   return (
     <>
-      <div className ="bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div className ="bg-slate-100">
         <div className="fixed">
-          <Taskbar></Taskbar>
+        <Taskbar></Taskbar>
         </div>
-          <div className = "h-screen">
-            <div className="container mx-auto text-center p-5">
-              hi i am goated
-            </div>
-          </div>
+          <div className='p-5'></div>
+          <Intro></Intro>
+         
       </div>
     </>
   )
