@@ -4,10 +4,16 @@ function Taskbar() {
 
   return (
     <>
-      <div className="p-2 backdrop-blur w-screen mx-0 text-center bg-transparent border-zinc-400 border-b">
-        <button className="hover:text-slate-100"> 
-            hello?
+      <div className="flex gap-7 text-2xl p-2 pt-7 justify-end backdrop-blur w-5/6 mx-0 bg-transparent">
+        <button className="hover:underline underline-offset-1 "> 
+            info
         </button>  
+        <button className="hover:underline underline-offset-1 "> 
+            projects
+        </button>
+        <button className="hover:underline underline-offset-1 "> 
+            contacts
+        </button>
       </div>
     </>
   )

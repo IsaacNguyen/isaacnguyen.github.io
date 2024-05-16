@@ -1,23 +1,24 @@
 import './index.css'
+import headShot from './assets/puppy.jpg';
+
 function Intro() {
 
     return (
       <>
         <div className="flex h-96 w-screen mx-0 bg-transparent items-center justify-center ">
-          <div className = "fade-in-image flex items-center h-2/3 align-middle w-1/2">
-              <div className = "text-left pr-5">
-                <div className = "text-4xl">
+          <div className = "pb-8 border-b-2 flex items-center h-4/5 align-middle w-1/2">
+              <div className = "fade-in-image pr-10">
+                <p className = "text-4xl">
                   Hello! I am
-                </div>
-                <div className = "text-6xl pb-3">
+                </p>
+                <p className = "text-6xl pb-5">
                   Isaac Nguyen
-                </div>
-                <div>
+                </p>
+                <p>
                   I like coding and having lots of fun
-                </div>
+                </p>
               </div>
-
-            <div> put your face right here</div>
+            <img src = {headShot} className=' fade-in-image  h-full rounded-full'></img>
           </div>
         </div>
       </>
