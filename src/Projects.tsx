@@ -4,14 +4,16 @@ function Projects() {
 
     return (
       <>
-        <div className=" flex h-96 w-2/3 mx-0 bg-transparent items-center justify-center ">
-          <div className = "fade-in-image flex items-center h-2/3 align-middle w-1/2">
-              <div className = "pr-10">
-                <button>hello</button>
-                <button>lit</button>
+        <div className="fade-in-image flex h-96 w-screen mx-0 justify-center ">
+            <div className='flex w-2/3 justify-center'>
+              <div className='flex w-1/2 h-1/6 top-0 justify-between text-2xl'>
+                  <button className='pl-10 hover:underline underline-offset-1'>coding</button>
+                  <button className='pr-10 hover:underline underline-offset-1'>hobbies</button>
               </div>
+            </div>   
+
           </div>
-        </div>
+     
       </>
     )
   }

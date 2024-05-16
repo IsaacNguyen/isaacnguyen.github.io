@@ -11,11 +11,11 @@ function Intro() {
                 <p className = "text-4xl">
                   Hello! I am
                 </p>
-                <p className = "text-6xl pb-5">
-                  Isaac Nguyen
+                <p className = "text-6xl pb-4">
+                  Isaac Nguyen.
                 </p>
                 <p>
-                  I like coding and having lots of fun
+                  I like coding and having lots of fun!
                 </p>
               </div>
             <img src = {headShot} className=' fade-in-image  h-full rounded-full'></img>
