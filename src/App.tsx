@@ -13,7 +13,6 @@ function App() {
       {/* <div className="fixed"><Taskbar></Taskbar></div>*/}
 
         <Taskbar></Taskbar>
-          <div className='p-5'></div>
           <Intro></Intro>
           <Projects></Projects>
           <Contact></Contact>
