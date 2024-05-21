@@ -2,7 +2,7 @@ import './index.css'
 import { useState } from 'react';
 import fasterFashion from './assets/fasterfashion.png';
 
-function Projects(props) {
+function Projects() {
   const [showSection, updateSection] = useState('coding');
 
   const toggleSectionVisibility = (section: string) => {
