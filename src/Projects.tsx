@@ -10,13 +10,13 @@ function Projects() {
   };
     return (
       <div className='mb-10'>
-        <div className="fade-in-image flex h-96 w-screen mx-0 justify-center">
-            <div className='flex w-2/3 flex-col items-center'>
-              <div className='flex mb-10 w-1/2 h-1/6 top-0 justify-between text-2xl pb-10 '>
-                  <button className='pl-10 hover:underline underline-offset-1'
+        <div className="fade-in-image flex flex-wrap h-96 w-screen mx-0 justify-center ">
+            <div className='flex w-2/3 flex-col'>
+              <div className='items-start flex flex-1 sm:flex-wrap mb-10 w-full h-1/6 top-0 sm:gap-20 justify-center text-2xl pb-10 '>
+                  <button className='hover:underline underline-offset-1'
                     onClick ={() => toggleSectionVisibility('coding')}
                   >coding projects</button>
-                  <button className='pr-10 hover:underline underline-offset-1'
+                  <button className='hover:underline underline-offset-1'
                     onClick ={() => toggleSectionVisibility('hobbies')}
                     >other stuff</button>
 
@@ -24,8 +24,8 @@ function Projects() {
               </div>
               {showSection == 'coding' && (
                     <div className='grid grid-cols-1 gap-8 w-full h-full fade-in-image'>
-                      <div className='bg-slate-200 rounded-md p-10 pr-0 flex flex-wrap max-w-full w-full h-45'>
-                        <img className='drop-shadow-md w-1/2 min-h-24 max-full h-auto mr-8' src= {fasterFashion}></img>
+                      <div className='bg-slate-200 flex-1 rounded-md flex-row p-10 flex flex-nowrap justify-center sm:gap-5 w-full h-45'>
+                        <img className='drop-shadow-md w-1/2 min-h-24 max-full' src= {fasterFashion}></img>
                         <div className='flex flex-col'>
                           <h1 className='mx-auto font-bold text-xl'>FASTER FASHION</h1>
                           <ul>
