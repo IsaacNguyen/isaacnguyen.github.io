@@ -25,7 +25,6 @@ function Projects() {
               </div>
               {showSection == 'coding' && (
                   <>
-  
                     <a href='https://github.com/jeremysu99/Faster-Fashion'target="_blank" className='fade-in-image max-w-md md:max-w-2xl mx-auto bg-slate-200 rounded-md hover:shake-image hover:filter hover:brightness-90 shadow-md p-6 mb-10'>
                       <div className='sm:flex text-center sm:text-start sm:justify-normal'>
                         <img className='drop-shadow-md w-1/2 h-1/2 sm:h-1/4 sm:w-1/2 mx-auto sm:mx-0 pb-5 sm:pb-0' src= {fasterFashion}></img>
