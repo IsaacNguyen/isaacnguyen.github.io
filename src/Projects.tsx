@@ -13,7 +13,7 @@ function Projects() {
       <div className='mb-10'>
         <div className="fade-in-image flex flex-wrap w-full mx-0 justify-center">
             <div className='flex w-2/3 flex-col'>
-              <div className='items-start flex mb-10 w-full h-1/6 top-0 gap-10 md:gap-20 justify-center text-xl md:text-2xl '>
+              <div className='items-start flex mb-10 w-full h-1/6 top-0 gap-5 sm:gap-10 md:gap-20 justify-center text-lg sm:text-xl md:text-2xl '>
                   <button className='hover:shake-image  hover:underline underline-offset-1'
                     onClick ={() => toggleSectionVisibility('coding')}
                   >coding projects</button>
