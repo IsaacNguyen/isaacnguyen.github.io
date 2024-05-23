@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className ="bg-slate-100 font-sans-serif">
+      <div className ="bg-slate-100 font-sans-serif  overflow-auto">
       {/* <div className="fixed"><Taskbar></Taskbar></div>*/}
 
         <Taskbar></Taskbar>

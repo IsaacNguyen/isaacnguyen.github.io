@@ -34,3 +34,8 @@
 .shake-image{
   animation: rotate 0.7s ease-in-out both;
 }
+
+.div {
+  overflow-x: hidden;
+  overflow-x: clip !important;
+}
