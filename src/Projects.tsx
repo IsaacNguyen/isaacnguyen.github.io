@@ -1,5 +1,4 @@
 import './index.css'
-import { useState } from 'react';
 import fasterFashion from './assets/fasterfashion.png';
 import personal_website from './assets/website.png';
 import spotr from './assets/spotr.png';
