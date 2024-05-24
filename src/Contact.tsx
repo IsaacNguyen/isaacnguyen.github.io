@@ -29,11 +29,11 @@ function Contact({ scrollToIntro, scrollToProjects, scrollToHobbies }: ContactPr
               </div>
               <div className='flex gap-2 items-center align-middle'>
                 <img className='w-7 h-7'src = {phone}></img>
-                <a href='tel:+3107077440'className='whitespace-nowrap text-left hover:underline underline-offset-1 text-xl'>310-707-7440</a>
+                <a href='tel:310-707-7440'className='whitespace-nowrap text-left hover:underline underline-offset-1 text-xl'>310-707-7440</a>
               </div>
               <div className='flex gap-2 items-center align-middle'>
                 <img className='w-7 h-7'src = {location}></img>
-                <p className=' text-left text-xl'>Irvine, CA</p>
+                <p className=' text-left text-xl whitespace-nowrap'>Irvine, CA</p>
               </div>
             </div>
 
