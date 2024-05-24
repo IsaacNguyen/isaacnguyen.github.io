@@ -18,7 +18,7 @@ function Projects() {
                       <ProjectTab image={fasterFashion}
                       name="Faster Fashion"
                       description='Utilizes AI to help people update their wardrobes by reconstructing outfits, piece by piece.'
-                      tags = {['Flask', 'HTML/CSS', 'Python', 'JavaScript']}
+                      tags = {['Python', 'HTML/CSS', 'JavaScript', 'Flask','Bootstrap']}
                       link = 'https://github.com/jeremysu99/Faster-Fashion'
                       >
                       </ProjectTab>
@@ -26,14 +26,14 @@ function Projects() {
                       <ProjectTab image={personal_website}
                       name="This Website!"
                       description='My very own personal website I made from scratch. Lots and lots of frontend practice!'
-                      tags = {['Tailwind CSS', 'React.js', 'TypeScript']}
+                      tags = {['TypeScript', 'React.js', 'Tailwind CSS']}
                       link = 'https://github.com/IsaacNguyen/isaacnguyen.github.io'
                       >
                       </ProjectTab>
 
                       <ProjectTab image={spotr}
                       name="Spotr"
-                      description="Helping people familiarize themselves with their surroundings by ungatekeeping people's favorite spots."
+                      description="Helps people familiarize themselves with their surroundings by ungatekeeping people's favorite spots."
                       tags = {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'Firebase']}
                       link = 'https://github.com/IsaacNguyen/spotr'
                       >
