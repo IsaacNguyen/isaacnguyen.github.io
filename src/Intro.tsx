@@ -1,26 +1,26 @@
 import './index.css'
-import headShot from './assets/puppy.jpg';
+import headShot from './assets/headshot.jpg';
 
 function Intro() {
 
     return (
       <>
-        <div className="h-screen w-full bg-transparent items-center justify-center mb-10 pt-6 ">
-          <div className = "pb-8 flex flex-nowrap h-full items-center w-full justify-center gap-2 sm:gap-5 p-10 md:gap-20">
+        <div className="h-screen w-full bg-transparent mb-10 content-center sm:items-start pt-6 ">
+          <div className = "pb-8 flex-wrap sm:flex-nowrap flex sm:h-full items-center w-full justify-center gap-10 p-10 lg:gap-20">
               <div className = "fade-in-image">
-                <p className = "text-lg sm:text-2xl md:text-4xl">
-                  Hello! I am
+                <p className = "text-xl sm:text-2xl md:text-4xl">
+                  hi! i am
                 </p>
-                <p className = "font-semibold text-xl sm:text-4xl md:text-6xl mb-1 sm:mb-4">
-                  Isaac Nguyen.
+                <p className = "font-semibold text-2xl sm:text-4xl md:text-6xl mb-1 sm:mb-4">
+                  isaac nguyen.
                 </p>
                 <p className='text-xs sm:text-sm md:text-base'>
-                  I like coding and having lots of fun!
+                  i like coding and doing lots of other things!
                 </p>
               </div>
-            <img src = {headShot} className='overflow-hidden fade-in-image h-1/5 sm:h-1/4 md:h-2/5 rounded-full'></img>
+            <img src = {headShot} className='overflow-hidden fade-in-image sm:w-auto h-28 sm:h-40 md:h-72 rounded-full'></img>
           </div>
-          <div className='w-2/3 border-b-2 m-auto'></div>
+
         </div>
       </>
     )
