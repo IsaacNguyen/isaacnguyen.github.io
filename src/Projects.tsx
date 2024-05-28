@@ -20,7 +20,8 @@ function Projects() {
                       <div className='flex flex-col gap-7'>
                         <ProjectTab image={fasterFashion}
                         name="Faster Fashion"
-                        description='Utilizes AI to help people update their wardrobes by reconstructing outfits, piece by piece.'
+                        description='Utilizing AI to help people update their wardrobes by reconstructing outfits, piece by piece.'
+                        accomplishment='Best Use of Google Cloud API, IrvineHacks 2024'
                         tags = {['Python', 'HTML/CSS', 'JavaScript', 'Flask','Bootstrap']}
                         link = 'https://github.com/jeremysu99/Faster-Fashion'
                         >
@@ -28,7 +29,8 @@ function Projects() {
  
                         <ProjectTab image={spotr}
                         name="Spotr"
-                        description="Helps people familiarize themselves with their surroundings by ungatekeeping people's favorite spots."
+                        description="Helping people familiarize themselves with their surroundings by ungatekeeping people's favorite spots."
+                        accomplishment=''
                         tags = {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'Firebase']}
                         link = 'https://github.com/IsaacNguyen/spotr'
                         >
@@ -39,6 +41,7 @@ function Projects() {
                         <ProjectTab image={personal_website}
                           name="This Website!"
                           description='My very own personal website I made from scratch. Lots and lots of frontend practice!'
+                          accomplishment=''
                           tags = {['TypeScript', 'React.js', 'Tailwind CSS']}
                           link = 'https://github.com/IsaacNguyen/isaacnguyen.github.io'
                           >
@@ -47,7 +50,8 @@ function Projects() {
 
                         <ProjectTab image={moove}
                         name="Moove"
-                        description="Authenticates property sales and educates college students on the financial aspect of moving out."
+                        description="Authenticating property sales and educating college students on the financial aspect of moving out."
+                        accomplishment='Best Use of Melissa API/Data Sets, VenusHacks 2024'
                         tags = {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'Firebase']}
                         link = 'https://github.com/IsaacNguyen/venushacks2024/tree/main'
                         >
