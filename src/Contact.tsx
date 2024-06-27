@@ -1,9 +1,9 @@
 import './index.css'
 import linkedin from './assets/linkedin.png';
 import github from './assets/github.png';
-import instagram from './assets/instagram.png';
+//import instagram from './assets/instagram.png';
 import email from './assets/email.png';
-import phone from './assets/phone.png';
+//import phone from './assets/phone.png';
 import location from './assets/location.png';
 import resume from './assets/Isaac Nguyen Resume (3).pdf';
 
