@@ -5,7 +5,7 @@ import instagram from './assets/instagram.png';
 import email from './assets/email.png';
 import phone from './assets/phone.png';
 import location from './assets/location.png';
-import resume from './assets/Resume (4).pdf';
+import resume from './assets/Isaac Nguyen Resume (3).pdf';
 
 interface ContactProps {
   scrollToIntro: () => void;
@@ -25,12 +25,12 @@ function Contact({ scrollToIntro, scrollToProjects, scrollToHobbies }: ContactPr
               <h1 className='text-3xl font-semibold self-start'>isaac</h1>
               <div className='flex gap-2 items-center align-middle'>
                 <img className='w-6 h-4'src = {email}></img>
-                <a href='mailto:isaachugh33@gmail.com'className='text-left hover:underline underline-offset-1 text-lg'>isaachugh33@gmail.com</a>
+                <a href='mailto:isaachugh33@yahoo.com'className='text-left hover:underline underline-offset-1 text-lg'>isaachugh33@yahoo.com</a>
               </div>
-              <div className='flex gap-2 items-center align-middle'>
+              {/* <div className='flex gap-2 items-center align-middle'>
                 <img className='w-5 h-5'src = {phone}></img>
                 <a href='tel:310-707-7440'className='whitespace-nowrap text-left hover:underline underline-offset-1 text-lg'>310-707-7440</a>
-              </div>
+              </div> */}
               <div className='flex gap-2 items-center align-middle'>
                 <img className='w-5 h-5'src = {location}></img>
                 <p className=' text-left text-lg whitespace-nowrap'>Irvine, CA</p>
@@ -62,9 +62,9 @@ function Contact({ scrollToIntro, scrollToProjects, scrollToHobbies }: ContactPr
                 <a href='https://github.com/IsaacNguyen' target='_blank'>
                   <img className='w-8 h-8' src={github}></img>
                 </a>
-                <a href='https://www.instagram.com/isaac.nguyen_/' target='_blank'>
+                {/* <a href='https://www.instagram.com/isaac.nguyen_/' target='_blank'>
                   <img className='w-8 h-8' src={instagram}></img>
-                </a>
+                </a> */}
               </div>
 
             </div>
