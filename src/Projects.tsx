@@ -10,13 +10,13 @@ function Projects() {
     return (
       <div className='my-64'>
         <div className="flex flex-wrap w-full mx-0 my-16 justify-center">
-            <div className='flex w-4/5 flex-col'>
+            <div className='flex w-4/5 flex-col justify-center xl:justify-normal'>
               <div className='flex mb-10 w-full h-1/6 top-0 justify-center lg:justify-normal text-lg '>
                   <h1 className='text-white text-3xl md:text-5xl font-bold'>coding projects!</h1>
               </div>
-                  <div className='grid grid-cols-1 xl:grid-cols-2 gap-x-7 lg:gap-x-3 gap-y-10'>
+                  <div className='grid grid-cols-1 xl:grid-cols-2 gap-x-7 lg:gap-x-6'>
                       {/* column 1 */}
-                      <div className='flex flex-col gap-7'>
+                      <div className='flex flex-col gap-7 xl:ml-auto'>
                         <ProjectTab image={fasterFashion}
                         name="Faster Fashion"
                         description='Utilizing AI to help people update their wardrobes by reconstructing outfits, piece by piece.'
@@ -36,7 +36,7 @@ function Projects() {
                         </ProjectTab>
                       </div>
 
-                      <div className='flex flex-col gap-7'>
+                      <div className='flex flex-col gap-7 xl:mr-auto'>
                         <ProjectTab image={personal_website}
                           name="This Website!"
                           description='My very own personal website I made from scratch. Lots and lots of frontend practice!'

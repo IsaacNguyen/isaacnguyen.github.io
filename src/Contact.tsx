@@ -9,9 +9,10 @@ interface ContactProps {
   scrollToIntro: () => void;
   scrollToProjects: () => void;
   scrollToHobbies: () => void;
+  scrollToExperience: () => void;
 }
 
-function Contact({ scrollToIntro, scrollToProjects, scrollToHobbies }: ContactProps) {
+function Contact({ scrollToIntro, scrollToProjects, scrollToHobbies, scrollToExperience }: ContactProps) {
 
     return (
       <>
@@ -35,6 +36,9 @@ function Contact({ scrollToIntro, scrollToProjects, scrollToHobbies }: ContactPr
               <h1 className='text-3xl font-semibold'>pages</h1>
               <button className="text-start text-xl hover:underline underline-offset-1" onClick={scrollToIntro}>
                 info
+              </button>
+              <button className="text-start text-xl hover:underline underline-offset-1" onClick={scrollToExperience}>
+                experience
               </button>
               <button className="text-start text-xl hover:underline underline-offset-1" onClick={scrollToProjects}>
                 projects

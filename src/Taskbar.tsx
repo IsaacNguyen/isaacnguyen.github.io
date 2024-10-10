@@ -7,15 +7,19 @@ interface TaskbarProps {
   scrollToProjects: () => void;
   scrollToHobbies: () => void;
   scrollToContact: () => void;
+  scrollToExperience: () => void;
 }
 
-function Taskbar({ scrollToIntro, scrollToProjects, scrollToHobbies, scrollToContact }: TaskbarProps) {
+function Taskbar({ scrollToIntro, scrollToProjects, scrollToHobbies, scrollToContact, scrollToExperience }: TaskbarProps) {
 
   return (
     <>
       <div className="absolute flex w-full gap-5 sm:gap-7 text-sm sm:text-xl md:text-2xl pt-7 px-4 justify-end sm:w-5/6 text-white bg-transparent"> 
         <button className="hover:underline underline-offset-1" onClick={scrollToIntro}>
           info
+        </button>
+        <button className="hover:underline underline-offset-1" onClick={scrollToExperience}>
+          experience
         </button>
         <button className="hover:underline underline-offset-1" onClick={scrollToProjects}>
           projects

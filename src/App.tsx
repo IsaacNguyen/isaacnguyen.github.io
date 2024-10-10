@@ -6,6 +6,7 @@ import Intro from './Intro';
 import Projects from './Projects';
 import Contact from './Contact';
 import Hobbies from './Hobbies';
+import Experience from './Experience';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   const projectsRef = useRef(null);
   const hobbiesRef = useRef(null);
   const contactRef = useRef(null);
+  const experienceRef = useRef(null);
 
   const scrollToSection = (ref: any) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -43,9 +45,13 @@ function App() {
          scrollToProjects={() => scrollToSection(projectsRef)}
          scrollToHobbies={() => scrollToSection(hobbiesRef)}
          scrollToContact={() => scrollToSection(contactRef)}
+         scrollToExperience={() => scrollToSection(experienceRef)}
         ></Taskbar>
           <div ref={introRef}>
             <Intro />
+          </div>
+          <div ref={experienceRef}>
+            <Experience/>
           </div>
           <div ref={projectsRef}>
             <Projects />
@@ -58,6 +64,7 @@ function App() {
             scrollToIntro={() => scrollToSection(introRef)}
             scrollToProjects={() => scrollToSection(projectsRef)}
             scrollToHobbies={() => scrollToSection(hobbiesRef)}
+            scrollToExperience={() => scrollToSection(experienceRef)}
             ></Contact>
           </div>
       </div>
