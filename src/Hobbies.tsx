@@ -60,9 +60,10 @@ function Hobbies() {
                             <div className='flex flex-col h-4/5 justify-center flex-1 text-xs sm:text-sm'>
                                 <p>
                                    Over these past few years, I've gotten really into clothing and fashion. I feel like
-                                   I'm really able to expres myself through my clothes. To actually find pieces, I've been thrifting
+                                   I'm really able to express myself through my clothes. To actually find pieces, I've been thrifting
                                    a lot (shop sustainably!), and I realized I could turn my hobby into a side hustle. I sell
-                                   clothes on a platform called Depop. If you're looking forheck out my store!
+                                   clothes on a platform called Depop. If you're looking for vintage clothes or
+                                   are curious to see what I'm selling, check out my store!
                                 </p>
                             </div>
                         </div>
