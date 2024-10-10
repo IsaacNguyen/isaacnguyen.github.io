@@ -30,3 +30,26 @@
   overflow-x: hidden;
   overflow-x: clip !important;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff00;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff83;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

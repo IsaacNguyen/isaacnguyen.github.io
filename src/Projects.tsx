@@ -14,7 +14,7 @@ function Projects() {
               <div className='flex mb-10 w-full h-1/6 top-0 justify-center lg:justify-normal text-lg '>
                   <h1 className='text-white text-3xl md:text-5xl font-bold'>coding projects!</h1>
               </div>
-                  <div className='grid grid-cols-1 xl:grid-cols-2 gap-x-7 gap-y-10'>
+                  <div className='grid grid-cols-1 xl:grid-cols-2 gap-x-7 lg:gap-x-3 gap-y-10'>
                       {/* column 1 */}
                       <div className='flex flex-col gap-7'>
                         <ProjectTab image={fasterFashion}

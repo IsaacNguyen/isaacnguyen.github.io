@@ -13,7 +13,8 @@ function ProjectTab({image, name, description, accomplishment, tags, link}: Proj
 
     return(
         <>
-            <a href={link}target="_blank" className='fade-in-image opacity-0 transition-opacity duration-1000 mx-auto max-w-md md:max-w-2xl text-white bg-black border-2 border-gray-500 rounded-md hover:filter hover:brightness-90 shadow-md p-6 '>
+        
+            <a href={link}target="_blank" className='fade-in-image opacity-0 [transition:opacity_3s,transform_0.4s] mx-auto max-w-md md:max-w-2xl text-white bg-black border-2 border-gray-500 rounded-md hover:scale-105 transform shadow-md p-6 '>
                 <div className='sm:flex text-center sm:text-start sm:justify-normal'>
                     <img className='my-auto drop-shadow-md w-1/2 h-1/2 sm:h-1/4 sm:w-1/3 mx-auto sm:mx-0 pb-5 sm:pb-0' src= {image}></img>
                     <div className='flex flex-col px-4 sm:px-8'>

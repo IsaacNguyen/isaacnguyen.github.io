@@ -7,7 +7,7 @@ function Intro() {
       <>
         <div className="h-screen w-full bg-transparent mb-10 content-center sm:items-start pt-6 text-white">
           <div className = "pb-8 flex-wrap sm:flex-nowrap flex sm:h-full items-center w-full justify-center gap-10 p-10 lg:gap-20">
-              <div className = "fade-in-image opacity-0 transition-opacity duration-1000 ">
+              <div className = "fade-in-image opacity-0 transition-opacity duration-[2000ms] ">
                 <p className = "text-xl sm:text-2xl md:text-4xl">
                   hi! i am
                 </p>
@@ -18,7 +18,7 @@ function Intro() {
                   i like coding and doing lots of other things!
                 </p>
               </div>
-            <img src = {headShot} className='overflow-hidden fade-in-image opacity-0 transition-opacity duration-1000  sm:w-auto h-28 sm:h-40 md:h-72 rounded-full'></img>
+            <img src = {headShot} className='overflow-hidden fade-in-image opacity-0 transition-opacity duration-[2000ms]  sm:w-auto h-28 sm:h-40 md:h-72 rounded-full'></img>
           </div>
 
         </div>
