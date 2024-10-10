@@ -1,5 +1,5 @@
 
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import './App.css'
 import Taskbar from './Taskbar';
 import Intro from './Intro';
@@ -18,9 +18,26 @@ function App() {
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
 
+  useEffect(() => {
+    const fadeElements = document.querySelectorAll('.fade-in-image');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('opacity-100');  
+          entry.target.classList.remove('opacity-0'); 
+        }
+      });
+    });
+
+    fadeElements.forEach((el) => {
+      observer.observe(el);
+    });
+  }, []);
+
   return (
     <>
-      <div className ="bg-slate-100 font-sans-serif  overflow-auto">
+      <div className ="bg-black font-sans-serif  overflow-auto">
         <Taskbar
          scrollToIntro={() => scrollToSection(introRef)}
          scrollToProjects={() => scrollToSection(projectsRef)}

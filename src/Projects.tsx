@@ -8,14 +8,13 @@ import moove from './assets/moove.png';
 function Projects() {
 
     return (
-      <div className='my-10'>
-        <div className='w-2/3 border-b-2 m-auto'></div>
-        <div className="fade-in-image flex flex-wrap w-full mx-0 my-16 justify-center">
-            <div className='flex w-2/3 flex-col'>
-              <div className='flex mb-10 w-full h-1/6 top-0 justify-center text-lg sm:text-xl md:text-2xl '>
-                  <h1>coding projects!</h1>
+      <div className='my-64'>
+        <div className="flex flex-wrap w-full mx-0 my-16 justify-center">
+            <div className='flex w-4/5 flex-col'>
+              <div className='flex mb-10 w-full h-1/6 top-0 justify-center lg:justify-normal text-lg '>
+                  <h1 className='text-white text-3xl md:text-5xl font-bold'>coding projects!</h1>
               </div>
-                  <div className='grid grid-cols-1 2xl:grid-cols-2 gap-x-7 gap-y-10'>
+                  <div className='grid grid-cols-1 xl:grid-cols-2 gap-x-7 gap-y-10'>
                       {/* column 1 */}
                       <div className='flex flex-col gap-7'>
                         <ProjectTab image={fasterFashion}
