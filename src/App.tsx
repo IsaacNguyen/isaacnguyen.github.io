@@ -17,7 +17,7 @@ function App() {
   const experienceRef = useRef(null);
 
   const scrollToSection = (ref: any) => {
-    ref.current.scrollIntoView({ behavior: 'smooth' });
+    ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
 
   useEffect(() => {
