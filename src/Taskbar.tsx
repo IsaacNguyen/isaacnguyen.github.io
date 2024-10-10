@@ -14,7 +14,7 @@ function Taskbar({ scrollToIntro, scrollToProjects, scrollToHobbies, scrollToCon
 
   return (
     <>
-      <div className="absolute flex w-full gap-5 sm:gap-7 text-sm sm:text-xl md:text-2xl pt-7 px-4 justify-end sm:w-5/6 text-white bg-transparent"> 
+      <div className="absolute flex w-full gap-5 sm:gap-7 text-xs sm:text-xl md:text-2xl pt-7 px-4 justify-end sm:w-5/6 text-white bg-transparent"> 
         <button className="hover:underline underline-offset-1" onClick={scrollToIntro}>
           info
         </button>

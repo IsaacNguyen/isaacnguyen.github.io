@@ -22,7 +22,7 @@ function Hobbies() {
                         <img className='drop-shadow-md h-20 md:h-40 w-20 md:w-40 my-auto'src={goomba}></img>
                         <div className='flex flex-col justify-center items-center '>
                             <h2 className='text-lg sm:text-xl font-semibold'>Cooking </h2>
-                            <div className='flex flex-col h-4/5 justify-center flex-1 text-xs sm:text-sm'>
+                            <div className='flex flex-col h-4/5 justify-center flex-1 text-[10px] sm:text-sm'>
                                 <p>
                                     I really enjoy cooking! To me, food is such an important part of my life
                                     and is such an intrinsic part of my identity and culture. I love sharing food 
@@ -39,7 +39,7 @@ function Hobbies() {
                         <img className='drop-shadow-md h-10 md:h-20 w-20 md:w-40 my-auto 'src={youtube}></img>
                         <div className='flex flex-col justify-center items-center '>
                             <h2 className='text-lg sm:text-xl font-semibold'>Videography </h2>
-                            <div className='flex flex-col h-4/5 justify-center flex-1 text-xs sm:text-sm'>
+                            <div className='flex flex-col h-4/5 justify-center flex-1 text-[10px] sm:text-sm'>
                                 <p>
                                     I'm a big sucker for nostalgia. Whenever I travel,
                                     I always make an effort to document it. There's something so
@@ -56,14 +56,14 @@ function Hobbies() {
                     <a href='https://www.depop.com/isaacscloset67/'target="_blank" className='transform transition-transform duration-300 hover:scale-[1.03] snap-center flex mb-5 shrink-0 gap-6 text-center bg-black border-2 border-gray-500 max-w-xs sm:max-w-sm md:max-w-2xl h-auto rounded-md p-6 mr-5 shadow-md'>
                         <img className='drop-shadow-md h-20 md:h-32 w-32 md:w-64 my-auto 'src={depop}></img>
                         <div className='flex flex-col justify-center items-center '>
-                            <h2 className='text-lg sm:text-xl font-semibold'>Thrifting/Selling Clothes</h2>
-                            <div className='flex flex-col h-4/5 justify-center flex-1 text-xs sm:text-sm'>
+                            <h2 className='text-lg sm:text-xl font-semibold'>Thrifting</h2>
+                            <div className='flex flex-col h-4/5 justify-center flex-1 text-[10px] sm:text-sm'>
                                 <p>
                                    Over these past few years, I've gotten really into clothing and fashion. I feel like
                                    I'm really able to express myself through my clothes. To actually find pieces, I've been thrifting
-                                   a lot (shop sustainably!), and I realized I could turn my hobby into a side hustle. I sell
-                                   clothes on a platform called Depop. If you're looking for vintage clothes or
-                                   are curious to see what I'm selling, check out my store!
+                                   a lot (shop sustainably!), and I realized I could turn my hobby into a side hustle. 
+                                   If you're looking for vintage clothes or
+                                   are curious to see what I'm selling, check out my Depop!
                                 </p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ function Hobbies() {
                             <div className='flex flex-col h-4/5 justify-center flex-1 text-xs sm:text-sm'>
                                 <p>
                                   This section has no link because I don't document these hobbies 
-                                  as much, but other things I enjoy are: thrifting, working out, playing soccer, rock climbing, 
+                                  as much, but other things I enjoy are: working out, playing soccer, rock climbing, 
                                   skateboarding, crocheting, sewing, and playing the piano. Having passion in my life is really important to me!
                                 </p>
                             </div>

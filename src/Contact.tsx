@@ -20,14 +20,14 @@ function Contact({ scrollToIntro, scrollToProjects, scrollToHobbies, scrollToExp
 
         <div className='mt-12 mb-28 w-full bg-black text-white h-90 '>
           <div className='mx-auto flex flex-col lg:flex-row justify-between gap-16 lg:gap-5 w-2/3'>
-            <div className='flex flex-col w-2/5 gap-5'>
+            <div className='flex flex-col w-full lg:w-2/5 gap-5'>
               <h1 className='text-3xl font-semibold self-start'>isaac</h1>
-              <div className='flex gap-2 items-center align-middle'>
+              <div className='flex gap-2 items-center align-middle w-full'>
                 <Mail size={20}/>
                 <a href='mailto:isaachn@uci.edu'className='text-left hover:underline underline-offset-1 text-lg'>isaachugh33@yahoo.com</a>
               </div>
-              <div className='flex gap-2 items-center align-middle'>
-              <MapPin size={20}/>
+              <div className='flex gap-2 items-center w-full lg:w-2/5 align-middle'>
+                <MapPin size={20}/>
                 <p className=' text-left text-lg whitespace-nowrap'>Irvine, CA</p>
               </div>
             </div>
