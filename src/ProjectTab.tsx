@@ -21,7 +21,6 @@ function ProjectTab({image, name, description, accomplishment, tags, link}: Proj
                         {accomplishment && (
                             <h2 className="text-xs mx-auto text-white bg-black border-[1px] border-gray-500 px-2 py-1 mt-2 rounded-md">🏆 {accomplishment}</h2>
                         )}   
-                        
                         <p className=' text-xs sm:text-sm md:text-base pt-2 pb-3'>{description}</p>
                         <div className='mt-auto flex justify-center sm:justify-normal font-light flex-wrap gap-2 text-xs md:text-sm'>
                             {tags.map((tag,index) => (

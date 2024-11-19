@@ -16,8 +16,8 @@ function App() {
   const contactRef = useRef(null);
   const experienceRef = useRef(null);
 
-  const scrollToSection = (ref: any) => {
-    ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  const scrollToSection = (ref: any, options = { behavior: 'smooth', block: 'center' }) => {
+    ref.current.scrollIntoView(options);
   };
 
   useEffect(() => {
@@ -45,7 +45,7 @@ function App() {
          scrollToProjects={() => scrollToSection(projectsRef)}
          scrollToHobbies={() => scrollToSection(hobbiesRef)}
          scrollToContact={() => scrollToSection(contactRef)}
-         scrollToExperience={() => scrollToSection(experienceRef)}
+         scrollToExperience={() => scrollToSection(experienceRef, { behavior: 'smooth', block: 'start' })}
         ></Taskbar>
           <div ref={introRef}>
             <Intro />
@@ -64,7 +64,7 @@ function App() {
             scrollToIntro={() => scrollToSection(introRef)}
             scrollToProjects={() => scrollToSection(projectsRef)}
             scrollToHobbies={() => scrollToSection(hobbiesRef)}
-            scrollToExperience={() => scrollToSection(experienceRef)}
+            scrollToExperience={() => scrollToSection(experienceRef, { behavior: 'smooth', block: 'start' })}
             ></Contact>
           </div>
       </div>

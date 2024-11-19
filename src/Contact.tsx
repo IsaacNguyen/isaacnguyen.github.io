@@ -1,5 +1,5 @@
 import './index.css'
-import resume from './assets/Isaac_Nguyen_CV.pdf';
+import resume from './assets/Isaac_Nguyen_Resume.pdf';
 import {Mail} from 'lucide-react';
 import {MapPin} from 'lucide-react';
 import {Linkedin} from 'lucide-react';

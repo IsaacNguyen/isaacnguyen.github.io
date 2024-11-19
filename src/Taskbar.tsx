@@ -1,6 +1,6 @@
 //import { useState } from 'react'
 import './index.css'
-import resume from './assets/Isaac_Nguyen_CV.pdf';
+import resume from './assets/Isaac_Nguyen_Resume.pdf';
 
 interface TaskbarProps {
   scrollToIntro: () => void;
