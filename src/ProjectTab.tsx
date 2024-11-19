@@ -24,7 +24,7 @@ function ProjectTab({image, name, description, accomplishment, tags, link}: Proj
                         <p className=' text-xs sm:text-sm md:text-base pt-2 pb-3'>{description}</p>
                         <div className='mt-auto flex justify-center sm:justify-normal font-light flex-wrap gap-2 text-xs md:text-sm'>
                             {tags.map((tag,index) => (
-                                <span key={index} className='text-white bg-black border-[0.5px] border-gray-500 rounded-sm px-1.5 py-0.5'>{tag}</span>
+                                <span key={index} className='text-gray-300 bg-black border-[0.5px] border-gray-500 rounded-lg px-1.5 py-0.5'>{tag}</span>
                             ))}
                         </div>
                     </div>

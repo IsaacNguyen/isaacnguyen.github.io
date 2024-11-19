@@ -25,7 +25,7 @@ function Experience() {
                       image={atoma}
                       role="Software Engineer Intern"
                       name="Atoma Media"
-                      description="Developing end-to-end website for finance startup that uses AI to gather information about financial articles to democratize financial information."
+                      description="Developing an end-to-end website for a finance startup that uses AI to gather information about financial articles to democratize financial information."
                       timeframe="July 2024 - Present"
                       link = 'https://www.joinatoma.com/'
                       />
@@ -35,7 +35,7 @@ function Experience() {
                       image={ctc}
                       role="Full-Stack Developer"
                       name="Commit the Change"
-                      description="Producing digital case management tool to improve efficiency of aiding homeless women/children for nonprofit organization called Colette&apos;s Children Home."
+                      description="Producing a digital case management tool to improve efficiency of aiding homeless women/children for a nonprofit organization called Colette&apos;s Children Home."
                       timeframe="October 2024 - Present"
                       link = 'https://ctc-uci.com/'
                       />
@@ -45,7 +45,7 @@ function Experience() {
                       image={antalmanac}
                       role="Software Developer"
                       name="AntAlamanac - ICSSC Projects Committee"
-                      description="Contributing to open source, student-run project named AntAlamanac, a schedule planning and course exploration tool for UCI students."
+                      description="Contributing to the open source, student-run project named AntAlamanac, a schedule planning and course exploration tool for UCI students."
                       timeframe="November 2024 - Present"
                       link = 'https://antalmanac.com/'
                       />
