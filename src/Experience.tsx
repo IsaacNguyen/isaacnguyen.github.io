@@ -45,7 +45,7 @@ function Experience() {
                       image={antalmanac}
                       role="Software Developer"
                       name="AntAlamanac - ICSSC Projects Committee"
-                      description="Contributing to open source student-run project named AntAlamanac, a schedule planning and course exploration tool for UCI students"
+                      description="Contributing to open source, student-run project named AntAlamanac, a schedule planning and course exploration tool for UCI students."
                       timeframe="November 2024 - Present"
                       link = 'https://antalmanac.com/'
                       />
