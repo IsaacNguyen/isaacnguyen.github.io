@@ -28,6 +28,7 @@ function Experience() {
                       description="Developing an end-to-end website for a finance startup that uses AI to gather information about financial articles to democratize financial information."
                       timeframe="July 2024 - Present"
                       link = 'https://www.joinatoma.com/'
+                      rounded={false}
                       />
 
                     <ExperienceTab
@@ -38,16 +39,18 @@ function Experience() {
                       description="Producing a digital case management tool to improve efficiency of aiding homeless women/children for a nonprofit organization called Colette&apos;s Children Home."
                       timeframe="October 2024 - Present"
                       link = 'https://ctc-uci.com/'
+                      rounded={false}
                       />
 
                     <ExperienceTab
                       logo={icsscLogo}
                       image={antalmanac}
                       role="Software Developer"
-                      name="AntAlamanac - ICSSC Projects Committee"
-                      description="Contributing to the open source, student-run project named AntAlamanac, a schedule planning and course exploration tool for UCI students."
+                      name="AntAlmanac - ICSSC Projects Committee"
+                      description="Contributing to the open source, student-run project named AntAlmanac, a schedule planning and course exploration tool for UCI students."
                       timeframe="November 2024 - Present"
                       link = 'https://antalmanac.com/'
+                      rounded={true}
                       />
 
                     <ExperienceTab
@@ -58,6 +61,7 @@ function Experience() {
                       description="Working on the Generative AI in Education project, specifically the Papyrus AI, an instructional LLM used to improve the literacy and writing for K-12 students."
                       timeframe="October 2024 - Present"
                       link = 'https://www.genaied.org/'
+                      rounded={true}
                       />
 
                 </div>
