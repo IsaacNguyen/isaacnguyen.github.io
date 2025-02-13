@@ -52,9 +52,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-
-Push the commit or tag
-  /usr/bin/git push origin gh-pages
-  remote: Permission to IsaacNguyen/isaacnguyen.github.io.git denied to github-actions[bot].
-  fatal: unable to access 'https://github.com/IsaacNguyen/isaacnguyen.github.io.git/': The requested URL returned error: 403
-  Error: Action failed with "The process '/usr/bin/git' failed with exit code 128"
