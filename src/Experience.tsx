@@ -20,6 +20,7 @@ function Experience() {
                 </div>
                 <div className='flex flex-col gap-8 w-full'>
         
+              
 
                     <ExperienceTab
                       logo={ctcLogo}
@@ -54,8 +55,7 @@ function Experience() {
                       rounded={true}
                       />
 
-                    
-                    <ExperienceTab
+                      <ExperienceTab
                       logo={atomaLogo}
                       image={atoma}
                       role="Software Engineering Intern"
