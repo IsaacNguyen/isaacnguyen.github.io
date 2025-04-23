@@ -8,6 +8,8 @@ import icsscLogo from '../src/assets/icssc.svg'
 import dllLogo from '../src/assets/dlllogo.png'
 import dll from '../src/assets/dll.png'
 import antalmanac from '../src/assets/antalamanac.png'
+import awsLogo from '../src/assets/awslogo.png'
+import aws from '../src/assets/aws.png'
 
 function Experience() {
     return (
@@ -20,7 +22,16 @@ function Experience() {
                 </div>
                 <div className='flex flex-col gap-8 w-full'>
         
-              
+                      <ExperienceTab
+                      logo={awsLogo}
+                      image={aws}
+                      role="Software Development Engineer Intern"
+                      name="Amazon Web Services (AWS)"
+                      description="Incoming Summer 2025 on the Relational Database Service (RDS) Team"
+                      timeframe="June 2025 - September 2025"
+                      link = 'https://aws.amazon.com/'
+                      rounded={false}
+                      />
 
                     <ExperienceTab
                       logo={ctcLogo}
