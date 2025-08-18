@@ -27,7 +27,7 @@ function Experience() {
                       image={aws}
                       role="Software Development Engineer Intern"
                       name="Amazon Web Services (AWS)"
-                      description="Incoming Summer 2025 on the Relational Database Service (RDS) Team"
+                      description="Full-stack development for AWS SageMaker"
                       timeframe="June 2025 - September 2025"
                       link = 'https://aws.amazon.com/'
                       rounded={false}
@@ -47,7 +47,7 @@ function Experience() {
                     <ExperienceTab
                       logo={icsscLogo}
                       image={antalmanac}
-                      role="Software Development Engineer"
+                      role="Software Engineer"
                       name="AntAlmanac - ICSSC Projects Committee"
                       description="Contributing to the open source, student-run project named AntAlmanac, a schedule planning and course exploration tool for 8,000+ UCI students."
                       timeframe="November 2024 - Present"
@@ -60,8 +60,8 @@ function Experience() {
                       image={dll}
                       role="Undergraduate Student Researcher"
                       name="Digital Learning lab"
-                      description="Working on the Generative AI in Education project, specifically the Papyrus AI, an instructional LLM used to improve the literacy and writing for K-12 students."
-                      timeframe="October 2024 - Present"
+                      description="Worked on the Generative AI in Education project, specifically the Papyrus AI, an instructional LLM used to improve the literacy and writing for K-12 students."
+                      timeframe="October 2024 - June 2025"
                       link = 'https://www.genaied.org/'
                       rounded={true}
                       />
@@ -71,7 +71,7 @@ function Experience() {
                       image={atoma}
                       role="Software Engineering Intern"
                       name="Atoma Media"
-                      description="Developing an end-to-end website for a finance startup that uses AI to gather information about financial articles to democratize financial information."
+                      description="Developed an end-to-end website for a finance startup that uses AI to gather information about financial articles to democratize financial information."
                       timeframe="July 2024 - February 2025"
                       link = 'https://www.joinatoma.com/'
                       rounded={false}
