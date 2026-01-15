@@ -40,7 +40,7 @@ function Experience() {
                       image={aws}
                       role="Software Development Engineer Intern"
                       name="Amazon Web Services (AWS)"
-                      description="Full-stack development for AWS SageMaker"
+                      description="Full-Stack Development for AWS SageMaker"
                       timeframe="June 2025 - September 2025"
                       link = 'https://aws.amazon.com/'
                       rounded={false}
