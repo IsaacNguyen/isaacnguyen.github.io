@@ -59,7 +59,7 @@ function Intro() {
                   isaac nguyen.
                 </p>
                 <p className='text-xs sm:text-lg md:text-2xl'>
-                  i like<span className="inline-block text-white px-1 rounded" style={{ minWidth: maxWidth }}>{currentText}<span className="animate-pulse inline-block">|</span></span>
+                  i like<span className="inline-block text-white px-1 rounded underline" style={{ minWidth: maxWidth, textUnderlineOffset: '0.1em' }}>{currentText}<span className="animate-pulse inline-block">|</span></span>
                 </p>
               </div>
             <img src = {headShot} className='overflow-hidden fade-in-image opacity-0 transition-opacity duration-[2000ms]  sm:w-auto h-28 sm:h-40 md:h-72 rounded-full'></img>

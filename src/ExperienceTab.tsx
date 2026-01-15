@@ -23,7 +23,7 @@ function ExperienceTab({logo, image, role, name, description, timeframe, link, r
                         <p className=' text-xs sm:text-sm  pt-2 pb-3'>{description}</p>
                         <p className="text-xs sm:text-sm xl:text-base mt-auto font-extralight text-gray-400">{timeframe}</p>
                     </div>  
-                    <div className='mx-auto my-auto w-[300px] sm:w-[400px] lg:w-[600px] xl:w-[600px] 2xl:w-[600px] h-[200px] sm:h-[250px] lg:h-[250px] xl:h-[300px] overflow-hidden rounded-lg'>
+                    <div className='mx-auto my-auto w-[200px] sm:w-[400px] lg:w-[600px] xl:w-[600px] 2xl:w-[600px] h-[150px] sm:h-[250px] lg:h-[250px] xl:h-[300px] overflow-hidden rounded-lg'>
                         <img className='w-full h-full drop-shadow-md object-cover' src= {image} alt="Experience"></img>
                     </div>
                 </div>
