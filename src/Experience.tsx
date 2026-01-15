@@ -10,6 +10,8 @@ import dll from '../src/assets/dll.png'
 import antalmanac from '../src/assets/antalamanac.png'
 import awsLogo from '../src/assets/awslogo.png'
 import aws from '../src/assets/aws.png'
+import bloombergLogo from '../src/assets/bloomberg.png'
+import bloomberg from '../src/assets/bloomberg_img.png'
 
 function Experience() {
     return (
@@ -21,6 +23,17 @@ function Experience() {
                     <h1 className='text-white text-3xl md:text-5xl font-bold'>experience</h1>
                 </div>
                 <div className='flex flex-col gap-8 w-full'>
+
+                    <ExperienceTab
+                      logo={bloombergLogo}
+                      image={bloomberg}
+                      role="Software Engineer Intern"
+                      name="Bloomberg"
+                      description="Incoming Summer 2026"
+                      timeframe="June 2026 - August 2026"
+                      link = 'https://www.bloomberg.com/company/values/tech-at-bloomberg/?utm_source=bloomberg-menu&utm_medium=company'
+                      rounded={true}
+                      />
         
                       <ExperienceTab
                       logo={awsLogo}
